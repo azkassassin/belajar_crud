@@ -74,7 +74,7 @@
                       <?php echo $result['jenis_kelamin']; ?>
                   </td>
                   <td>
-                      <img src="img/<?php echo $result['foto_siswa']; ?>" style="width: 150px;">
+                      <img src="img/<?php echo $result['foto']; ?>" style="width: 150px;">
                   </td>
                   <td>
                       <?php echo $result['alamat']; ?>
