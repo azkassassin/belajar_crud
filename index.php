@@ -80,10 +80,10 @@
                       <?php echo $result['alamat']; ?>
                   </td>
                   <td>
-                    <a href="kelola.php?ubah=<?php echo $result['id_siswa'];?>" type="button" class="btn btn-success">
+                    <a href="kelola.php?ubah=<?php echo $result['id_siswa'];?>" type="button" class="btn btn-success btn-sm">
                         <i class="fa fa-pencil"></i>
                     </a>
-                    <a href="proses.php?hapus=<?php echo $result['id_siswa'];?>" type="button" class="btn btn-danger">
+                    <a href="proses.php?hapus=<?php echo $result['id_siswa'];?>" type="button" class="btn btn-danger btn-sm" onClick="return confirm('apakah anda yakin ingin menghapus data tersebut???')">
                         <i class="fa fa-trash"></i>
                     </a>
                   </td>
